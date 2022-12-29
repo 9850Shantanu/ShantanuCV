@@ -1,0 +1,116 @@
+div{
+    background-color: #E4F7E6;
+    
+}
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #0A2647;
+}
+/* google fonts 
+select 
+include in html and css */
+h2{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif
+}
+.top-container{
+    background-color:#E4F7E6 ;
+    position:relative;
+    padding-top: 100px;
+}
+
+
+img{
+    position: relative;
+    left: 20px;
+    height: 250px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}
+.top-cloud{
+    position: absolute;
+    bottom: 350px;
+    left: 1200px;
+}
+.webhead{
+    font-size: 35px;
+    color: rgb(60, 46, 28);
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+.skill{
+    font-size: 40px;
+}
+.sport{
+    font-size: 25px;
+}
+hr{
+    border: dotted #6c6d6d 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+
+
+}
+
+
+.btn {
+    font-size:15px;
+    font-family:Arial;
+    width:147px;
+    height:58px;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#124d77;
+    font-weight:bold;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    text-shadow:inset 0px 1px 0px #154682;
+    background:linear-gradient(#007dc1, #0061a7);
+  }
+  
+  .btn:hover {
+    background: linear-gradient(#0061a7, #007dc1);
+  }
+  .bottom-container{
+    background-color: #a9eacd;
+    padding:50px 0 20px ;
+  }
+  a{
+    color:#345e60;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px ;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color:#EAF6F6;
+  }
+  .copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+  }
+/* float used as a table to left align the image and written text 
+clear is the opposite of float. yeah we can say it...*/
